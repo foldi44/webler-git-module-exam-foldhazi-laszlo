@@ -17,5 +17,12 @@ public class BiologyApp {
         staffordshireterrier.setGender("Female");
         System.out.println(staffordshireterrier);
 
+        Dog canecorso = new Dog("Ghost", 7, new String[] {"Black"}, "Male");
+        System.out.println(canecorso);
+        canecorso.makeSound();
+
+        Cat persian = new Cat("Cratos", 4, new String[] {"Grey"}, "Male");
+        System.out.println(persian);
+        persian.makeSound();
     }
 }
